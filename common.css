@@ -1,0 +1,16 @@
+.logo{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+.logo a:hover{
+  color: lightgray;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}

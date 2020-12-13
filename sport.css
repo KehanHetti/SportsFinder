@@ -1,0 +1,17 @@
+.maps{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+img{
+    height: 350px;
+    padding-right: 10px;
+    display:block
+    
+}
+#results{
+    display: flex;
+}
+.video{
+    padding-right: 10px;
+}

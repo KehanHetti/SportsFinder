@@ -1,0 +1,52 @@
+.logo {
+  margin-top: 200px;
+}
+#searchBar {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  width: 310px;
+  background: none;
+}
+.searchIcon {
+  width: 15px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+#searchContainer {
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+.suggestion {
+  list-style-type: none;
+  margin: 5px;
+}
+#results {
+  width: 300px;
+  padding: 0px;
+  padding: 5px;
+  font-family: sans-serif;
+  display: none;
+  margin: 10px 0px;
+}
+
+#searchContainer.hasResults #results {
+  display: block;
+}
+#searchContainer.hasResults #searchBar {
+  border-bottom: 1px solid grey;
+}
+.suggestion:hover {
+  background-color: rgb(235, 235, 235);
+}
+.suggestion a {
+  text-decoration: none;
+  color: black;
+}
+.browseLink{
+  padding-top: 10px;
+  font-size: 12px;
+  color:grey;
+}

@@ -1,0 +1,3 @@
+
+Display Sports along with description,image, link to clubs and clubs near you
+CSS styling
